@@ -1,0 +1,14 @@
+const student = ['atik', 'batik', 'khatik'];
+console.log(student);
+student [1] = 'Sayem';
+console.log(student);
+student.push('Niladri');
+console.log(student);
+const removedItem = student.pop();
+console.log(student);
+console.log('Removed item: ' + removedItem);
+student.unshift('Add one item to the start: ' + 'Fuwara');
+console.log(student);
+const removedFirstItem = student.shift();
+console.log(student);
+console.log('Removed first item: ' + removedFirstItem);
