@@ -1,6 +1,6 @@
 const student = ['atik', 'batik', 'khatik'];
 console.log(student);
-student [1] = 'Sayem';
+// student [1] = 'Sayem'; // কোন কিছু পরিবর্তন করতে চাইলে//
 console.log(student);
 student.push('Niladri');
 console.log(student);
@@ -12,3 +12,4 @@ console.log(student);
 const removedFirstItem = student.shift();
 console.log(student);
 console.log('Removed first item: ' + removedFirstItem);
+
