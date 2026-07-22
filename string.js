@@ -4,6 +4,7 @@
  const location = `mymenshing`;
 
 
+
  const numbers= [45, 48, 25, 7, 5];
  console.log(numbers.length);
  console.log(tea.length);
